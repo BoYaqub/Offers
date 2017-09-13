@@ -42,7 +42,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	});
 </script>
-<!-- //end-smooth-scrolling --> 
+<!-- //end-smooth-scrolling -->
+
+    <?php
+    include include('Connect-DB.php');
+
+    ?>
 </head> 
 <body>
 	<!-- for bootstrap working -->
@@ -186,10 +191,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="col-sm-3">
 										<ul class="multi-column-dropdown">
 											<h6>Mobiles</h6>
-											<li><a href="products.html">Mobile Phones</a></li>
-											<li><a href="products.html">Mp3 Players <span>New</span></a></li> 
-											<li><a href="products.html">Popular Models</a></li>
-											<li><a href="products.html">All Tablets<span>New</span></a></li>
+											<li><a href="Offer.html">Mobile Phones</a></li>
+											<li><a href="Offer.html">Mp3 Players <span>New</span></a></li>
+											<li><a href="Offer.html">Popular Models</a></li>
+											<li><a href="Offer.html">All Tablets<span>New</span></a></li>
 										</ul>
 									</div>
 									<div class="col-sm-3">
@@ -1197,7 +1202,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
 				<h3>Grand Opening Event With flat<span>20% <i>Discount</i></span></h3>
-				<a href="products.html">Shop Now</a>
+				<a href="Offer.html">Shop Now</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
 				<h4>hot deal</h4>
@@ -1497,15 +1502,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><a href="mail.html">Contact Us</a></li>
 						<li><a href="codes.html">Short Codes</a></li>
 						<li><a href="faq.html">FAQ's</a></li>
-						<li><a href="products.html">Special Products</a></li>
+						<li><a href="Offer.html">Special Products</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info"> 
-						<li><a href="products.html">Mobiles</a></li>
+						<li><a href="Offer.html">Mobiles</a></li>
 						<li><a href="products1.html">Laptops</a></li>
-						<li><a href="products.html">Purifiers</a></li>
+						<li><a href="Offer.html">Purifiers</a></li>
 						<li><a href="products1.html">Wearables</a></li>
 						<li><a href="products2.html">Kitchen</a></li>
 					</ul>
@@ -1514,7 +1519,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>Profile</h3>
 					<ul class="info"> 
 						<li><a href="index.php">Home</a></li>
-						<li><a href="products.html">Today's Deals</a></li>
+						<li><a href="Offer.html">Today's Deals</a></li>
 					</ul>
 					<h4>Follow Us</h4>
 					<div class="agileits_social_button">
